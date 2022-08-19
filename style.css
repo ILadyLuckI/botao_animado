@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;  
+}
+
+body {
+    background-color: white;
+    background-image: url(https://images8.alphacoders.com/115/1156488.png);
+    background-size: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-title{
+    text-align: center;
+    padding-top: 0px;
+    position: static;
+    top: 0;
+}
+
+p{
+    color: white;
+}
+
+button{
+    position: absolute center;
+    width: 10rem;
+    height: 3rem;
+    background-color: black;
+    cursor:not-allowed;
+}
+
+button:hover {
+    background: #4B0082; 
+    border-radius: 50px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.text-footer{  
+    position:center;  
+    padding: 0px;
+    text-align: center;   
+    color: black; 
+    padding-top: 500px;
+}
+
+.link{
+    color: black;
+}
